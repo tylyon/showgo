@@ -32,10 +32,18 @@ footer {
   height:725px;
   max-width:100%;
   max-height:100%;
-  background-position:100% 45%;
-  background-image: url("../assets/showgo_header.jpg");
-  background-size:cover;
   z-index: 0;
+}
+
+#top-container {
+  background: white;
+  width: 100%;
+}
+
+#bg-image {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
 }
 
 /*MODAL*/
