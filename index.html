@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<head>
+  <title>showgo</title>
+  <link rel="shortcut icon" type="image/png" href="http://s3-us-west-2.amazonaws.com/musicmapwebstaging/favicon.png?v=2"/>
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+  <script src="js/jquery-min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Yeseva+One|Quicksand' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <!-- Thanks Modal -->
+  <div class="modal fade" id="submissionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Thanks for requesting a Showgo beta account!</h4>
+        </div>
+        <div class="modal-body">
+          <p>We have a limited number of beta accounts available, but as long as there's enough right now, you'll receive an email invite shortly.</p>
+          <p>We're happy you found us! Stay in touch over on our <a href="http://nocoverseattle.com/">blog</a> and our <a href="https://twitter.com/discovershowgo">snarky twitter account</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- Modal End -->
+
+  <div class="masthead">
+    <div id="top-div" class="container fullpage-div">
+      <div id="showgo-top"><img src="assets/showgo_logo_white.png" class="img-responsive"/></div>
+      <h1 id = "top-tagline">Because live music is better</h1>
+      <h2 id="thankyou">Thank You!</h2>
+      <form id = "email" action="http://discovershowgo.us7.list-manage.com/subscribe/post-json?u=9e553cd5b137eb92c630d2e2b&amp;id=673fe8f10f&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <input placeholder="Request a beta invite" type="email" name="EMAIL" class="required email round" id="email-address">
+        <!-- <input type="text" id="email-address" /> -->
+        <!-- <button type="button" id="submit-button" data-toggle="modal" data-target="#submissionModal">SUBMIT</button> -->
+        <input type="submit" value="REQUEST" id="submit-button" name="Request" id="mc-embedded-subscribe" class="visible-lg-inline-block visible-md-inline-block request-button red-button inline button">
+        <input type="submit" value="REQUEST" id="submit-button" name="Request" id="mc-embedded-subscribe" class="round hidden-lg hidden-md button red-button request-button">
+      </form>
+
+      <div class = "error_msg">   </div>
+      <button type="button" id="learn-more-btn" class="btn btn-lg learn-more button"><i class="fa fa-arrow-circle-down fa-lg"></i> LEARN MORE</button></div>
+    </div>
+  </div><!--  End Masthead -->
+  <div class="container" id="top-container">
+    <div class="row center">
+      <div class='col-lg-8 col-lg-offset-2'>
+        <div class="whats-going-on">
+          <h2 class="red">What's going on here?</h2>
+          <p>Finding new live music nearby isn't always as easy as it should be, which is why we're building Showgo. Soon, descovering incredible live music will be more simple, social, and fun than ever before.</p>
+        </div>
+        <hr>
+        <div class='row'>
+          <h3 class="how-it-works center red">How it works</h3>
+          <div class='icon-div col-lg-6'>
+            <div class="learn_more_illustration" class="img-rounded">
+              <img src="assets/showgo_illustration-01.svg"</img>
+            </div><!--true-live-music illustration-->
+
+            <h4 class="icon-title">True live music discovery</h4>
+            <p>Showgo puts everything you need to find and go to amazing shows in one place.</p>
+            <!-- True live music discovery -->
+          </div>
+
+          <div class='icon-div col-lg-6'>
+            <div class="learn_more_illustration" class="img-rounded">
+              <img src="assets/showgo_illustration-02.svg"</img>
+            </div><!--better-with-friends illustration-->
+            <h4 class = "icon-title">Better with friends</h4>
+            <p>Get rewarded for bringing your friends out to shows and helping bands build their fan bases.</p>
+            <!-- Better with friends -->
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='icon-div col-lg-6'>
+            <div class="learn_more_illustration" class="img-rounded">
+              <img src="assets/showgo_illustration-03.svg"</img>
+            </div><!--bands-and-fans illustration-->
+            <h4 class = "icon-title">Bands and fans unite</h4>
+            <p>Join a community for people that share a love of live music, whether you're on the stage or facing it.</p>
+            <!-- Bands and fans unite -->
+
+          </div>
+
+          <div class='icon-div col-lg-6'>
+            <div class="learn_more_illustration" class="img-rounded">
+              <img src="assets/showgo_illustration-04.svg"</img>
+            </div><!--nothing-but-live illustration-->
+            <h4 class = "icon-title">Nothing but live music</h4>
+            <p>Showgo is ad free, and always will be. That means we're focused on helping you find cool new music, and that's it.</p>
+            <!-- Nothing but live music -->
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row are-you-in">
+          <div class='col-lg-8'>
+            <h3>Are you in? Request a beta invite.</h3>
+          </div>
+          <div class="col-lg-1">
+            <button type="button" id="bottom-request-btn" class="button red-button btn btn-lg">Request</button>
+          </div>
+        </div>
+        <div class="row visit-blog">
+          <div class="col-lg-12">
+            <h3 id="visit-blog-text">And visit our
+            <a href="http://nocoverseattle.com" target="_blank">Live Music Blog</a>
+            </h3>
+          </div>
+        </div>
+      </div>  <!-- col-8 -->
+    </div>  <!-- row -->
+  </div> <!-- container -->
+
+  <footer>
+    <div class='container'>
+      <div class="row">
+        <p class="col-lg-offset-2 col-md-6">copyright &copy;2012-2014 Showgo. Because live music is better.</p>
+        <span class="list-inline col-md-4">
+          <li><a href="mailto:admin@discovershowgo.com" class="navbar-link"><img src="assets/simple-icons-master/icons/email/email-32.png"/></a></li>
+          <li><a href="https://www.facebook.com/discovershowgo" class="navbar-link" target="_blank"><img src="assets/showog_icn_fb.png" class="social-icons"/></a></li>
+          <li><a href="https://twitter.com/discovershowgo" class="navbar-link" target="_blank"><img src="assets/showog_icn_twitter.png" class="social-icons"/></a></li>
+          <li><a href="http://instagram.com/discovershowgo" class="navbar-link" target="_blank"><img src="assets/showog_icn_instagram.png" class="social-icons"/></a></li>
+        </span>
+      </div>
+    </div>
+  </footer>
+</body>
