@@ -391,18 +391,9 @@ input:-webkit-autofill {
 
 @media (max-width: 800px) {
 
-  body {
-    background: url("../assets/showgo_header.jpg");
-    background-attachment: fixed !important;
-    background-size: cover !important;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    position: absolute;
-  }
-
   #bg-image {
-    display: none;
+    width: initial;
+    height: 100%;
   }
 
   #top-div {
