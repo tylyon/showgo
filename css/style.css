@@ -424,4 +424,18 @@ input:-webkit-autofill {
   #showgo-top img {
     margin-top: 100px;
   }
+
+  #submit-button {
+    position: absolute;
+    top: 350px;
+    width: 40%;
+    left: 5%;
+  }
+
+  #learn-more-btn {
+    position: absolute;
+    right: 5%;
+    top: 350px;
+    width: 40%;
+  }
 }
