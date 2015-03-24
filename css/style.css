@@ -392,8 +392,9 @@ input:-webkit-autofill {
 @media (max-width: 800px) {
 
   body {
-    background: url("../assets/showgo_header.jpg") fixed;
-    background-size: cover;
+    background: url("../assets/showgo_header.jpg");
+    background-attachment: fixed !important;
+    background-size: cover !important;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
