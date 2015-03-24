@@ -395,6 +395,8 @@ input:-webkit-autofill {
     background: url("../assets/showgo_header.jpg") fixed;
     background-size: cover;
     height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
   }
 
   #bg-image {
