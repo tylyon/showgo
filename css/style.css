@@ -391,6 +391,13 @@ input:-webkit-autofill {
 
 @media (max-width: 800px) {
 
+  body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+  }
+
   #bg-image {
     width: initial;
     height: 100%;
