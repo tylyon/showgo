@@ -47,6 +47,7 @@ function register($form) {
               $(".modal.fade").modal();
               $("#mce-EMAIL").val("");
               $(".error_msg").text("");
+              $("#thankyou").fadeIn();
             }
 
         }

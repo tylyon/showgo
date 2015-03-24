@@ -32,10 +32,24 @@ footer {
   height:725px;
   max-width:100%;
   max-height:100%;
-  background-position:100% 45%;
-  background-image: url("../assets/showgo_header.jpg");
-  background-size:cover;
   z-index: 0;
+}
+
+#top-tagline {
+  font-weight: 100;
+}
+
+#bg-image {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+#top-container {
+  width: 100%;
+  background: white;
 }
 
 /*MODAL*/
@@ -324,12 +338,13 @@ a:hover {
   margin-bottom: 60px;
 }
 
-.visit-blog {
-  height: 150px;
-}
+
 
 #visit-blog-text {
   font-weight: 100;
+  color: rgb(237, 72, 112);
+  text-decoration: underline;
+  font-size: 1.2em;
 }
 
 .social-icons {
@@ -339,6 +354,7 @@ a:hover {
 #thankyou {
   display: none;
   color: white;
+  font-weight: 100;
 }
 
 @media (min-width: 992px) {
@@ -371,4 +387,20 @@ a:hover {
 
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+@media (max-width: 800px) {
+  #bg-image {
+    height: 100%;
+    width: initial;
+  }
+
+  .email {
+    width: 100%;
+    padding: 4% 7% 4% 7%;
+    margin: 0;
+    margin-bottom: 25px;
+    height: initial;
+    min-width: 0;
+  }
 }
