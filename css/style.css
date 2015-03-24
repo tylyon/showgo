@@ -377,9 +377,9 @@ a:hover {
 
 ::-webkit-input-placeholder::before{
   content:"\f003";
-  font-family: FontAwesome;
+  font-family: "Open Sans";
   font-style:normal;
-  font-weight:normal;
+  font-weight:300;
   font-size:16px;
   margin-right:9px;
   color:black;
