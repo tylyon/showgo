@@ -392,15 +392,17 @@ input:-webkit-autofill {
 @media (max-width: 800px) {
 
   body {
-    background: url("../assets/showgo_header.jpg") no-repeat center center fixed;
+    background: url("../assets/showgo_header.jpg") fixed;
     background-size: cover;
     height: 100%;
-    overflow: scroll;
-    position: absolute;
   }
 
   #bg-image {
     display: none;
+  }
+
+  #top-div {
+    padding: 0;
   }
 
   .email {
@@ -410,5 +412,14 @@ input:-webkit-autofill {
     margin-bottom: 25px;
     height: initial;
     min-width: 0;
+  }
+
+  #top-tagline {
+    letter-spacing: -1px;
+    font-size: 7vw;
+  }
+
+  #showgo-top img {
+    margin-top: 100px;
   }
 }
