@@ -483,13 +483,11 @@ padding:8px 17px 7px 15px;
 }
 
 #learn-more-btn {
-top: 70%;
-left:50%;
-margin-left:-90px;
-padding:1em;
-position:absolute;
-width:180px;
+padding:8px 17px 7px 15px;
+width:155px;
 text-align: center;
+height: 40px;
+margin-top: 1em;
 }
 
 #footer-text {
