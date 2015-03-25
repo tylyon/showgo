@@ -48,6 +48,11 @@ function register($form) {
               $("#mce-EMAIL").val("");
               $(".error_msg").text("");
               $("#thankyou").fadeIn();
+              if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                $("#learn-more-btn").css("right", "0");
+                $("#learn-more-btn").css("left", "50%");
+                $("#learn-more-btn").css("margin-left", "-5em");
+              }
             }
 
         }
