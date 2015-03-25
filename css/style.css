@@ -183,7 +183,6 @@ a:hover {
 #top-div {
   padding: 15px;
   text-align: center;
-  display: none;
 }
 
 
@@ -370,6 +369,15 @@ a:hover {
   font-weight: 100;
 }
 
+#social-icons-email {
+  transform: translate(7px,-5px);
+  height: 32px;
+}
+
+.list-inline > li {
+  float: right;
+}
+
 @media (min-width: 992px) {
   .learn-more {
     margin-top: 150px;
@@ -474,9 +482,9 @@ input:-webkit-autofill {
   .email {
     outline: none !important;
     box-shadow: none!important;
-    padding: 13px;
+    padding: 13px 13px 13px 15px;
     font-size: 1em;
-    margin: 0 0 20px 0;
+    margin: 0;
     border-style: none;
     width: 55%;
     min-width: 300px;
@@ -484,29 +492,32 @@ input:-webkit-autofill {
     z-index: 1;
     opacity: 0.6;
     font-family: "Open Sans";
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    font-weight: 100;
   }
 
   #submit-button {
-    position: absolute;
-    left: 10%;
-    bottom: 5%;
-    width: 30%;
-    height: 14%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1%;
+    display: inline-block;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding: 8px 17px 7px 15px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 100;
+    margin-left: -6px;
   }
 
   #learn-more-btn {
     position: absolute;
-    right: 10%;
+    left: 50%;
     bottom: 5%;
-    width: 30%;
+    width: 180px;
     height: 14%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1%;
+    margin-left: -90px;
   }
 }
