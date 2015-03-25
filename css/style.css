@@ -383,17 +383,22 @@ margin-top:100px;
 }
 
 #submit-button {
-left:5%;
-position:absolute;
-top:350px;
-width:40%;
+  left: 1em;
+  position: absolute;
+  top: 375px;
+  width: 10em;
+  font-size: 1em;
+  padding: 1em;
 }
 
 #learn-more-btn {
-position:absolute;
-right:5%;
-top:350px;
-width:40%;
+  position: absolute;
+  right: 1em;
+  top: 375px;
+  width: 10em;
+  font-size: 1em;
+  font-weight: 100;
+  font-family: open sans;
 }
 
 #footer-text {
