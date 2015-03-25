@@ -461,4 +461,52 @@ input:-webkit-autofill {
   .masthead {
     height: 500px;
   }
+
+  #top-tagline {
+    letter-spacing: 0;
+    font-size: 2em;
+  }
+
+  #placeholder {
+    color: rgba(0, 0, 0, 0.65);
+  }
+
+  .email {
+    outline: none !important;
+    box-shadow: none!important;
+    padding: 13px;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+    border-style: none;
+    width: 55%;
+    min-width: 300px;
+    height: 40px;
+    z-index: 1;
+    opacity: 0.6;
+    font-family: "Open Sans";
+  }
+
+  #submit-button {
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    width: 30%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+  }
+
+  #learn-more-btn {
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    width: 30%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+  }
 }
