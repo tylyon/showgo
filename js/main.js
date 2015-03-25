@@ -1,6 +1,12 @@
 $(document).ready( function () {
     // I only have one form on the page but you can be more specific if need be.
     var $form = $('form');
+    var bg = $('#bg-image');
+    $(window).resize("resizeBackground");
+    function resizeBackground() {
+      bg.height($(window).height());
+    }
+    resizeBackground();
 
     $('#bottom-request-btn').click(function(e) {
       e.preventDefault();
